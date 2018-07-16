@@ -5,7 +5,9 @@ dist/
 *.pth
 __pycache__
 *.egg-info/
+.eggs/
 *.egg/
 docs/_build/
 *.sublime-project
 *.sublime-workspace
+.idea/
