@@ -667,7 +667,7 @@ class Connection(object):
         Initiate asynchronous connect.
         Returns future that resolves to this connection object.
         """
-        kwargs = {"async_": True}
+        kwargs = {"async": True}
         if self.connection_factory:
             kwargs["connection_factory"] = self.connection_factory
         if self.cursor_factory:
